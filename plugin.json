@@ -3,7 +3,7 @@
     {
       "name": "foo",
       "format": "foo",
-      "path": "./src/foo.ts"
+      "path": "./src/foo.js"
     }
   ]
 }
