@@ -1,0 +1,9 @@
+{
+  "loaders": [
+    {
+      "name": "foo",
+      "format": "foo",
+      "path": "./src/foo.ts"
+    }
+  ]
+}
