@@ -1,5 +1,3 @@
-import { BAZ } from './bar/baz'
-
 export const read = (path, { readTextFile }) => {
   const content = readTextFile(path)
 
@@ -11,7 +9,5 @@ export const read = (path, { readTextFile }) => {
 }
 
 export const write = (path, content, { writeTextFile }) => {
-  content.foo = BAZ
-
   writeTextFile(path, JSON.stringify(content))
 }

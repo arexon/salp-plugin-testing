@@ -3,7 +3,14 @@
     {
       "name": "foo",
       "format": "foo",
-      "path": "./src/foo.js"
+      "path": "./src/loader.js"
+    }
+  ],
+  "transformers": [
+    {
+      "name": "foo",
+      "formats": ["foo"],
+      "path": "./src/transformer.js"
     }
   ]
 }
